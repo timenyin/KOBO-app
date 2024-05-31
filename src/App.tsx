@@ -1,8 +1,14 @@
+// - starting point --
+import Nav from "./sections/Nav";
+import Hero from "./sections/Hero";
 function App() {
   
   return (
-    <h1>App Kobo</h1>
-  )
+  <>
+    <Nav />
+    <Hero />
+  </>
+  );
 }
 
 export default App;
