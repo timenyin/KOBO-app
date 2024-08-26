@@ -20,7 +20,7 @@ function Nav() {
                     <div className="flex h-[15vh]  items-center max-w-7x justify-between px-8 xl:m-auto lg:px-12">
                        <div className="flex">
                        <ButtonLink href="#" children={<img src={Kobodrop} alt="logo" />}/>
-                        <div className="flex hidden sm:flex  space-x-4 items-center ml-4 sm:ml-6  lg:ml-8 lg:space-x-8">
+                        <div className="hidden sm:flex  space-x-4 items-center ml-4 sm:ml-6 lg:ml-8 lg:space-x-8">
                            {navLinks.map((link, index) => (
                             <ButtonLink 
                             key={index} 
